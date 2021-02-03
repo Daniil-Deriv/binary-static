@@ -111,6 +111,8 @@ const MT5DesktopApp = ({ is_first_child, has_desktop_app }) => {
                 <React.Fragment>
                     <Heading system='windows' />
                     <Heading system='linux'>{it.L('MT5 for Linux')}</Heading>
+                    <Heading system='mac'>{it.L('MT5 for MacOs')}</Heading>
+                    
                     <p>
                         {it.L(
                             'Download MT5 for your desktop or laptop to access the powerful tools and features enjoyed by millions of traders.'
@@ -126,9 +128,15 @@ const MT5DesktopApp = ({ is_first_child, has_desktop_app }) => {
                             href='https://www.metatrader5.com/en/terminal/help/start_advanced/install_linux'
                             target='_blank'
                         />
+                        <DesktopDownloadBlock
+                            id='mac'
+                            href='https://download.mql5.com/cdn/web/metaquotes.software.corp/mt5/MetaTrader5.dmg'
+                            target='mac'
+                        />
                     </div>
                     <AlternativeDescription system='windows' alt1={`<a data-type='alt-link' data-target='linux' id='enable-linux-alt-link'>${it.L('Linux')}</a>`} />
-                    <AlternativeDescription system='linux' alt1={`<a data-type='alt-link' data-target='windows' id='enable-windows-alt-link'>${it.L('Windows')}</a>`} />
+                    <AlternativeDescription system='linux' alt1={`<a data-type='alt-link' data-target='mac' id='enable-mac-alt-link'>${it.L('MacOs or Windows')}</a>`} />
+                    <AlternativeDescription system='mac' alt1={`<a data-type='alt-link' data-target='windows' id='enable-windows-alt-link'>${it.L('Windows')}</a>`} />
                     <p className='foot-note notice-msg'>{txt_unsupported}</p>
                 </React.Fragment>
                 :
@@ -236,7 +244,7 @@ const Download = () => (
 
             <SeparatorLine no_wrapper />
 
-            <MT5DesktopApp />
+            <MT5DesktopApp has_desktop_app/>
         </div>
         <div className='gr-padding-30' />
     </div>
