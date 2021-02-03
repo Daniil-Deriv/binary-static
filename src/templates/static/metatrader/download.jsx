@@ -104,7 +104,7 @@ const DesktopDownloadBlock = ({
 );
 
 const MT5DesktopApp = ({ is_first_child, has_desktop_app }) => {
-    const txt_unsupported = it.L('The MT5 desktop app is not supported by macOS, Windows XP, Windows 2003, and Windows Vista.');
+    const txt_unsupported = it.L('The MT5 desktop app is not supported by Windows XP, Windows 2003, and Windows Vista.');
     return (
         <div className={`gr-padding-20 desktop-apps${is_first_child ? ' gr-parent' : ''}`}>
             {has_desktop_app ?
@@ -134,9 +134,9 @@ const MT5DesktopApp = ({ is_first_child, has_desktop_app }) => {
                             target='mac'
                         />
                     </div>
-                    <AlternativeDescription system='windows' alt1={`<a data-type='alt-link' data-target='linux' id='enable-linux-alt-link'>${it.L('Linux')}</a>`} />
+                    <AlternativeDescription system='windows' alt1={`<a data-type='alt-link' data-target='linux' id='enable-linux-alt-link'>${it.L('MacOs or Linux')}</a>`} />
                     <AlternativeDescription system='linux' alt1={`<a data-type='alt-link' data-target='mac' id='enable-mac-alt-link'>${it.L('MacOs or Windows')}</a>`} />
-                    <AlternativeDescription system='mac' alt1={`<a data-type='alt-link' data-target='windows' id='enable-windows-alt-link'>${it.L('Windows')}</a>`} />
+                    <AlternativeDescription system='mac' alt1={`<a data-type='alt-link' data-target='windows' id='enable-windows-alt-link'>${it.L('Windows or Linux')}</a>`} />
                     <p className='foot-note notice-msg'>{txt_unsupported}</p>
                 </React.Fragment>
                 :
