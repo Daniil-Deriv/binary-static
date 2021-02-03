@@ -134,7 +134,7 @@ const MT5DesktopApp = ({ is_first_child, has_desktop_app }) => {
                             target='mac'
                         />
                     </div>
-                    <AlternativeDescription system='windows' alt1={`<a data-type='alt-link' data-target='linux' id='enable-linux-alt-link'>${it.L('MacOs or Linux')}</a>`} />
+                    <AlternativeDescription system='windows' alt1={`<a data-type='alt-link' data-target='linux' id='enable-linux-alt-link'>${it.L('Linux or MacOs')}</a>`} />
                     <AlternativeDescription system='linux' alt1={`<a data-type='alt-link' data-target='mac' id='enable-mac-alt-link'>${it.L('MacOs or Windows')}</a>`} />
                     <AlternativeDescription system='mac' alt1={`<a data-type='alt-link' data-target='windows' id='enable-windows-alt-link'>${it.L('Windows or Linux')}</a>`} />
                     <p className='foot-note notice-msg'>{txt_unsupported}</p>
