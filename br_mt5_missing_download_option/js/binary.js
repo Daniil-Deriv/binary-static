@@ -17873,6 +17873,7 @@ var toggleDownloadPage = function toggleDownloadPage(target) {
         (0, _common_functions.getElementById)(target + '-description').setVisibility(1);
     }
     (0, _common_functions.getElementById)('mt5_download_' + (target === 'mac' ? 'mac_' : '') + 'platforms').setVisibility(1);
+    (0, _common_functions.getElementById)('mt5_download_' + (target !== 'mac' ? 'mac_' : '') + 'platforms').setVisibility(0);
 };
 var DownloadMetatrader = function () {
     var onLoad = function onLoad() {
