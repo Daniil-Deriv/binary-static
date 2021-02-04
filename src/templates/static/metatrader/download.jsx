@@ -236,7 +236,7 @@ const Download = () => (
             <MT5WebPlatform />
         </div>
         <div className='invisible' id='mt5_download_mac_platforms'>
-        <MT5DesktopApp is_first_child  has_desktop_app/>
+            <MT5DesktopApp is_first_child  has_desktop_app />
 
             <SeparatorLine no_wrapper />
 
