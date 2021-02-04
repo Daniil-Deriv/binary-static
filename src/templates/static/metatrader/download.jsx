@@ -239,7 +239,6 @@ const Download = () => (
 
             <MT5DesktopApp is_first_child  has_desktop_app />
 
-
             <SeparatorLine no_wrapper />
 
             <MT5ForMobile />
