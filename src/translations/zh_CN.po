@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-static\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-02-04 06:39\n"
+"PO-Revision-Date: 2021-02-11 09:54\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -29,16 +29,16 @@ msgid "10"
 msgstr "10"
 
 msgid "40"
-msgstr ""
+msgstr "40"
 
 msgid "50"
-msgstr ""
+msgstr "50"
 
 msgid "404"
 msgstr "404"
 
 msgid "500"
-msgstr ""
+msgstr "500"
 
 msgid " (account created)"
 msgstr " (已开立账户)"
@@ -1880,19 +1880,19 @@ msgid "B. Scope"
 msgstr "二、范围"
 
 msgid "BCH/USD"
-msgstr ""
+msgstr "比特币现金/美元"
 
 msgid "BNB vs US dollar"
-msgstr ""
+msgstr "币安币兑美元"
 
 msgid "BNB/USD"
-msgstr ""
+msgstr "币安币/美元"
 
 msgid "BTC"
 msgstr "比特币"
 
 msgid "BTC/USD"
-msgstr ""
+msgstr "比特币/美元"
 
 msgid "Bachelor's degree in computer science, or an equivalent combination of technical education, training, and work experience"
 msgstr "计算机科学大学本科学历，或拥有同等的技术教育、培训和工作经验"
@@ -3426,7 +3426,7 @@ msgid "DIEL shall not be obliged to provide professional clients with the follow
 msgstr "DIEL不可向专业客户提供以下服务："
 
 msgid "DSH/USD"
-msgstr ""
+msgstr "DSH/美元"
 
 msgid "Daily Reset Indices – Daily Reset Indices replicate markets with a bullish and bearish trend with a constant volatility. The Bull Market and Bear Market indices start at 00:00 GMT each day, replicating bullish and bearish markets respectively."
 msgstr "每日重置指数 - 每日重置指数复制具看涨和看跌走势与持续波动的市场。牛市和熊市指数每天从格林威治时间00:00开始，分别复制看涨和看跌市场。"
@@ -4047,10 +4047,10 @@ msgid "EOS vs US dollar"
 msgstr "EOS兑美元"
 
 msgid "EOS/USD"
-msgstr ""
+msgstr "EOS/美元"
 
 msgid "ETH/USD"
-msgstr ""
+msgstr "以太币/美元"
 
 msgid "EU Passport Rights"
 msgstr "欧盟金融护照权利"
@@ -6598,7 +6598,7 @@ msgid "L. Manifest Error"
 msgstr "十二、清单错误"
 
 msgid "LTC/USD"
-msgstr ""
+msgstr "莱特币/美元"
 
 msgid "Labuan"
 msgstr "纳闽"
@@ -8115,8 +8115,8 @@ msgstr "我们的 MetaTrader 5 财务账户适用于新手和经验丰富的交�
 msgid "Our Synthetic account allows you to trade CFDs on Synthetic Indices - our proprietary synthetic assets that simulate market forces."
 msgstr "公司的综合账户允许客户对波动率指数进行差价交易 - 这是公司专有的综合资产，可模拟市场力量。"
 
-msgid "Our active client base is expected to reach over 175,000 total clients this year."
-msgstr "我们今年的预计活跃客户总数将超过17万5千人。"
+msgid "Our active client base is expected to reach over 790,000 total clients this year."
+msgstr "我们今年的预计活跃客户总数将超过79万人。"
 
 msgid "Our business is founded on collaboration and we aim to build long-term, mutually beneficial relationships with our partners. However, we will never compromise our commitment to business integrity. In cases where our partners are unwilling or unable to abide by our principles, we reserve the right to withdraw from the business relationship."
 msgstr "我们的业务建立在合作基础上，我们旨在与合作伙伴建立长期的互利关系。但是，我们绝不会对业务诚信的坚持作出妥协。如果我们的合作伙伴不愿意或无法遵守我们的原则，我们保留退出业务关系的权利。"
@@ -9448,7 +9448,7 @@ msgid "Reset Call/Reset Put"
 msgstr "重置看涨/重置看跌"
 
 msgid "Reset MT5 password"
-msgstr "重设MT5密码"
+msgstr "重置MT5密码"
 
 msgid "Reset Password"
 msgstr "重设密码"
@@ -10432,7 +10432,7 @@ msgid "Swaps Long (per annum)"
 msgstr "多头掉期 (每年)"
 
 msgid "Swaps Short (per annum)"
-msgstr ""
+msgstr "空头掉期 (每年)"
 
 msgid "Swiss franc vs Japanese yen"
 msgstr "瑞士法郎兑日元"
@@ -13546,9 +13546,6 @@ msgstr "我们将把它与您的文档比较"
 msgid "We're almost there"
 msgstr "快全都准备就绪了"
 
-msgid "We're expected to generate over 2 USD billion in turnover this year, bringing our total turnover since inception to over 9.2 USD billion."
-msgstr "我们今年的预计营业额将超过20亿美元，自成立以来的总营业额超过92亿美元。"
-
 msgid "We're granted patents for 'Computer trading system and method for speculating on a financial market' and 'Computer trading system for offering custom financial market speculations'. The patents show our ability to innovate and stay ahead of the pack."
 msgstr "我们获得了“用于金融市场投机的电脑交易系统及方法”和“用于定制金融市场投机的电脑交易系统”两项专利。这些专利说明了我们的创新性和领先水平。"
 
@@ -13561,14 +13558,14 @@ msgstr "我们没有义务进行适当性测试, 也没有义务向您提供任�
 msgid "We're now ready to verify your identity"
 msgstr "我们现在准备验证您的身份"
 
-msgid "We're projected to register over 377 million transactions this year, bringing the total number of contracts that were bought and sold on our platform since inception to over 1.42 billion."
-msgstr "我们预计今年将有超过3亿7700万笔交易, 成立以来我们平台的购入和售出合约总数超过14亿2000万。"
+msgid "We're projected to register over 1.1 billion transactions this year, bringing the total number of contracts that were bought and sold on our platform since inception to over 2.8 billion."
+msgstr "我们预计今年将有超过11亿万笔交易, 成立以来我们平台的购入和售出合约总数超过28亿。"
 
 msgid "We're really proud of this award. We're strongly committed to offering an ethical and customer-focused trading experience, and the award shows that BetOnMarkets is a trusted brand that listens and caters to customers, whether they are experienced traders or novices. We offer customer services in English, Indonesian, Russian, Chinese and Spanish."
 msgstr "获得这个奖项，我们真的很自豪。我们不懈努力，提供合乎道德、以客户为中心的交易体验。该奖项表明 BetOnMarkets 是一个值得信赖的品牌，愿意接受客户意见并满足客户需求，无论客户是经验丰富的交易者还是新手。我们为客户提供英语、印尼语、俄语、中文和西班牙语服务。"
 
-msgid "We've grown in size over the years - both in terms of manpower and offices. We currently have over %1 employees across four offices in Malaysia, Malta, Paraguay and Dubai. Further growth in headcount is expected this year to cater to the increased demand in our products and services."
-msgstr "多年来，无论在人力和办公室方面， 我们的规模不断扩大。目前在马来西亚、马耳他、巴拉圭和迪拜有四个办事处和%1多名员工。预计今年的员工人数将进一步增长, 以满足我们产品和服务需求的增加。"
+msgid "We've grown in size over the years - both in terms of manpower and offices. We currently have over %1 employees across 10 offices in Malta, Dubai, Malaysia, Paraguay, Cyprus, Rwanda, and Belarus. Further growth in headcount is expected this year to cater to the increased demand in our products and services."
+msgstr ""
 
 msgid "We've sent a secure link to %{number}"
 msgstr "已发送安全链接至%{number}"
@@ -14057,13 +14054,13 @@ msgid "Written limits and self-exclusion"
 msgstr "书面限制和自我禁止"
 
 msgid "XMR vs US dollar"
-msgstr ""
+msgstr "门罗币兑美元"
 
 msgid "XMR/USD"
-msgstr ""
+msgstr "门罗币/美元"
 
 msgid "XRP/USD"
-msgstr ""
+msgstr "瑞波币/美元"
 
 msgid "Yes"
 msgstr "是的"
@@ -14540,7 +14537,7 @@ msgid "Your transaction reference number is %1"
 msgstr "您的交易参考号是 %1"
 
 msgid "Your virtual balance has been reset."
-msgstr ""
+msgstr "您的虚拟余额已重置。"
 
 msgid "Your web browser (%1) is out of date and may affect your trading experience. Proceed at your own risk. %2Update browser%3"
 msgstr "您的网络浏览器 (%1) 已过时，并可能会影响您的交易操作。继续操作须自行承担风险。%2更新浏览器%3"
@@ -14561,10 +14558,10 @@ msgid "You’ve successfully closed your account. We’ll send a confirmation em
 msgstr "您的账户已成功关闭。我们将传送确认邮件到%1。"
 
 msgid "ZEC vs US dollar"
-msgstr ""
+msgstr "大零币兑美元"
 
 msgid "ZEC/USD"
-msgstr ""
+msgstr "大零币/美元"
 
 msgid "ZingPay is a payment facility that allows online bank transfers for clients in South Africa."
 msgstr "ZingPay 是允许南非客户进行网上银行转账的支付工具 。"

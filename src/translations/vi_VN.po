@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-static\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-02-04 06:40\n"
+"PO-Revision-Date: 2021-02-11 09:54\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "MIME-Version: 1.0\n"
@@ -29,16 +29,16 @@ msgid "10"
 msgstr "10"
 
 msgid "40"
-msgstr ""
+msgstr "40"
 
 msgid "50"
-msgstr ""
+msgstr "50"
 
 msgid "404"
 msgstr "404"
 
 msgid "500"
-msgstr ""
+msgstr "500"
 
 msgid " (account created)"
 msgstr " (tài khoản đã được tạo)"
@@ -953,7 +953,7 @@ msgid "Access to the client's personal data is strictly prohibited, with the exc
 msgstr "Việc truy cập vào dữ liệu cá nhân của khách hàng bị cấm tuyệt đối, chỉ có nhân sự chủ chốt %1 mới có thể truy cập và chỉ trong những trường hợp thật sự cần thiết."
 
 msgid "Access your account with full trading permission."
-msgstr "Truy cập vào tài khoản của bạn với đầy đủ giấy phép kinh doanh."
+msgstr ""
 
 msgid "Accomplished writing and editing skills with at least five years editorial experience in digital advertising or online media"
 msgstr "Thành thục các kỹ năng viết và chỉnh sửa với ít nhất 5 năm kinh nghiệm biên tập trong quảng cáo kỹ thuật số hoặc truyền thông trực tuyến"
@@ -1881,19 +1881,19 @@ msgid "B. Scope"
 msgstr "B. Phạm Vi"
 
 msgid "BCH/USD"
-msgstr ""
+msgstr "BCH/USD"
 
 msgid "BNB vs US dollar"
-msgstr ""
+msgstr "BNB vs đô la Mỹ"
 
 msgid "BNB/USD"
-msgstr ""
+msgstr "BNB/USD"
 
 msgid "BTC"
 msgstr "BTC"
 
 msgid "BTC/USD"
-msgstr ""
+msgstr "BTC/USD"
 
 msgid "Bachelor's degree in computer science, or an equivalent combination of technical education, training, and work experience"
 msgstr "Bằng cử nhân trong khoa học máy tính, hoặc học vấn tổng hợp tương đương của kỹ thuật, huấn luyện và kinh nghiệm làm việc"
@@ -2448,7 +2448,7 @@ msgid "Change API Endpoint"
 msgstr "Thay đổi điểm nút cuối API"
 
 msgid "Change MT5 password"
-msgstr "Thay đổi mật khẩu MT5"
+msgstr ""
 
 msgid "Change Password"
 msgstr "Thay Đổi Mật Khẩu"
@@ -3339,7 +3339,7 @@ msgid "Current"
 msgstr "Hiện tại"
 
 msgid "Current MT5 password"
-msgstr "Mật khẩu MT5 hiện tại"
+msgstr ""
 
 msgid "Current Time"
 msgstr "Thời gian hiện tại"
@@ -3426,7 +3426,7 @@ msgid "DIEL shall not be obliged to provide professional clients with the follow
 msgstr "DIEL sẽ không có nghĩa vụ phải cung cấp cho các khách hàng chuyên nghiệp những điều sau đây:"
 
 msgid "DSH/USD"
-msgstr ""
+msgstr "DSH/USD"
 
 msgid "Daily Reset Indices – Daily Reset Indices replicate markets with a bullish and bearish trend with a constant volatility. The Bull Market and Bear Market indices start at 00:00 GMT each day, replicating bullish and bearish markets respectively."
 msgstr "Chỉ số đặt lại hàng ngày - chỉ số đặt lại hàng ngày mô phỏng thị trường với một xu hướng biến động liên tục tăng và giảm. Các chỉ số thị trường Bull và Bear bắt đầu từ 00:00 GMT mỗi ngày, mô phỏng theo các thị trường tăng giảm tương ứng."
@@ -4047,10 +4047,10 @@ msgid "EOS vs US dollar"
 msgstr "EOS vs đô-la Mỹ"
 
 msgid "EOS/USD"
-msgstr ""
+msgstr "EOS/USD"
 
 msgid "ETH/USD"
-msgstr ""
+msgstr "ETH/USD"
 
 msgid "EU Passport Rights"
 msgstr "Quyền Hộ chiếu EU"
@@ -6350,7 +6350,7 @@ msgid "Investments &amp; Dividends"
 msgstr "Đầu Tư &amp; Cổ tức"
 
 msgid "Investor"
-msgstr "Nhà đầu tư"
+msgstr ""
 
 msgid "Investor Compensation Scheme"
 msgstr "Đề Án Bồi Thường Nhà Đầu Tư"
@@ -6599,7 +6599,7 @@ msgid "L. Manifest Error"
 msgstr "L. Biểu hiện lỗi"
 
 msgid "LTC/USD"
-msgstr ""
+msgstr "LTC/USD"
 
 msgid "Labuan"
 msgstr "Labuan"
@@ -6983,10 +6983,10 @@ msgid "Maestro is an international debit card service by Mastercard. For more in
 msgstr "Maestro là một dịch vụ thẻ ghi nợ quốc tế của công ty Mastercard. Để biết thêm chi tiết, xin vui lòng truy cập vào %1."
 
 msgid "Main"
-msgstr "Chính"
+msgstr ""
 
 msgid "Main password"
-msgstr "Mật khẩu chính"
+msgstr ""
 
 msgid "Maintain accurate system pricing parameters"
 msgstr "Giữ cho các thông số định giá hệ thống luôn chính xác"
@@ -7619,7 +7619,7 @@ msgid "Never Used"
 msgstr "Chưa bao giờ sử dụng"
 
 msgid "New MT5 password"
-msgstr "Mật khẩu MT5 mới"
+msgstr ""
 
 msgid "New Password"
 msgstr "Mật Khẩu Mới"
@@ -8116,8 +8116,8 @@ msgstr "Tài khoản tài chính MetaTrader 5 của chúng tôi phù hợp cho c
 msgid "Our Synthetic account allows you to trade CFDs on Synthetic Indices - our proprietary synthetic assets that simulate market forces."
 msgstr "Tài khoản tổng hợp của chúng tôi cho phép bạn giao dịch CFD trên các chỉ số tổng hợp - tài sản tổng hợp độc quyền của chúng tôi mô phỏng các chuyển động của thị trường."
 
-msgid "Our active client base is expected to reach over 175,000 total clients this year."
-msgstr "Lượng khách hàng đanh hoạt động của chúng tôi được dự đoán sẽ vượt mức 175,000 trong năm nay."
+msgid "Our active client base is expected to reach over 790,000 total clients this year."
+msgstr ""
 
 msgid "Our business is founded on collaboration and we aim to build long-term, mutually beneficial relationships with our partners. However, we will never compromise our commitment to business integrity. In cases where our partners are unwilling or unable to abide by our principles, we reserve the right to withdraw from the business relationship."
 msgstr "Doanh nghiệp chúng tôi được thành lập dựa trên sự hợp tác và chúng tôi luôn hướng tới sự phát triển dài hạn, với các mối quan hệ vì lợi ích chung giữa các đối tác. Tuy nhiên, chúng tôi sẽ không bao giờ xâm phạm các nguyên tắc kinh doanh do mình đặt ra. Trong trường hợp mà các đối tác của chúng tôi không có ý định hoặc không thể tuân thủ các nguyên tắc do chúng tôi đề ra, chúng tôi có quyền rút khỏi mỗi quan hệ hợp tác."
@@ -8285,7 +8285,7 @@ msgid "Password should have lower and uppercase English letters with numbers."
 msgstr "Mật khẩu phải có chữ cái tiếng Anh viết thường và viết hoa kèm theo số."
 
 msgid "Password type"
-msgstr "Loại mật khẩu"
+msgstr ""
 
 msgid "Patented technology"
 msgstr "Công nghệ đã được cấp bằng sáng chế"
@@ -9449,7 +9449,7 @@ msgid "Reset Call/Reset Put"
 msgstr "Đặt lại Call/ Đặt lại Put"
 
 msgid "Reset MT5 password"
-msgstr "Đổi Mật Khẩu MT5"
+msgstr ""
 
 msgid "Reset Password"
 msgstr "Đổi Mật Khẩu"
@@ -9914,7 +9914,7 @@ msgid "Severability"
 msgstr "Điều khoản tách rời"
 
 msgid "Share access to your account without any permission to trade."
-msgstr "Chia sẻ quyền truy cập vào tài khoản của bạn mà không cần bất kỳ sự cho phép để giao dịch."
+msgstr ""
 
 msgid "Sharp prices"
 msgstr "Giá sắc bén"
@@ -10433,7 +10433,7 @@ msgid "Swaps Long (per annum)"
 msgstr "Phí qua đêm Mua (mỗi năm)"
 
 msgid "Swaps Short (per annum)"
-msgstr ""
+msgstr "Phí qua đêm Bán (hàng năm)"
 
 msgid "Swiss franc vs Japanese yen"
 msgstr "Đồng franc Thụy Sĩ vs Yên Nhật"
@@ -12504,7 +12504,7 @@ msgid "To reset your password, enter the email address you used to create your a
 msgstr "Để đặt lại mật khẩu của bạn, nhập địa chỉ email bạn đã sử dụng để tạo tài khoản của bạn vào trường dưới đây và bấm vào 'Đổi mật khẩu'."
 
 msgid "To reset your trading or investor password, please click the button below:"
-msgstr "Để đổi mật khẩu giao dịch hoặc đầu tư của bạn, xin vui lòng bấm vào nút dưới đây:"
+msgstr ""
 
 msgid "To smoothly verify you, we need a better photo"
 msgstr "Để việc xác minh dễ dàng, chúng tôi cần một bức ảnh có chất lượng tốt hơn"
@@ -13269,10 +13269,10 @@ msgid "Verify identity"
 msgstr "Xác định danh tính"
 
 msgid "Verify main password"
-msgstr "Xác minh Mật Khẩu Chính"
+msgstr ""
 
 msgid "Verify new MT5 password"
-msgstr "Xác thực mật khẩu MT5 mới"
+msgstr ""
 
 msgid "Verify new password"
 msgstr "Xác minh mật khẩu mới"
@@ -13547,9 +13547,6 @@ msgstr "Chúng tôi sẽ so sánh chúng với các tài liệu của bạn"
 msgid "We're almost there"
 msgstr "Gần hoàn tất rồi"
 
-msgid "We're expected to generate over 2 USD billion in turnover this year, bringing our total turnover since inception to over 9.2 USD billion."
-msgstr "Chúng tôi dự kiến ​​sẽ tạo ra doanh thu hơn 2 tỷ USD trong năm nay, nâng tổng doanh thu của chúng tôi kể từ khi thành lập lên hơn 9,2 tỷ USD."
-
 msgid "We're granted patents for 'Computer trading system and method for speculating on a financial market' and 'Computer trading system for offering custom financial market speculations'. The patents show our ability to innovate and stay ahead of the pack."
 msgstr "Chúng tôi được cấp bằng sáng chế cho 'Hệ thống kinh doanh máy tính và phương pháp suy đoán trên thị trường tài chính' và 'Hệ thống giao dịch máy tính để cung cấp hoạt động suy đoán thị trường tài chính tùy chỉnh'. Các bằng sáng chế cho thấy khả năng của chúng tôi trong việc đổi mới và luôn dẫn đầu trong ngành."
 
@@ -13562,14 +13559,14 @@ msgstr "Chúng tôi không có nghĩa vụ tiến hành một bài kiểm tra ph
 msgid "We're now ready to verify your identity"
 msgstr "Chúng tôi đã sẵn sàng xác minh danh tính cho bạn"
 
-msgid "We're projected to register over 377 million transactions this year, bringing the total number of contracts that were bought and sold on our platform since inception to over 1.42 billion."
-msgstr "Chúng tôi đang dự kiến sẽ thực hiện trên 377 triệu giao dịch trong năm nay, đưa tổng số hợp đồng đã được mua và bán được trên nền tảng của chúng tôi kể từ khi thành lập lên đến hơn 1.42 Tỷ."
+msgid "We're projected to register over 1.1 billion transactions this year, bringing the total number of contracts that were bought and sold on our platform since inception to over 2.8 billion."
+msgstr ""
 
 msgid "We're really proud of this award. We're strongly committed to offering an ethical and customer-focused trading experience, and the award shows that BetOnMarkets is a trusted brand that listens and caters to customers, whether they are experienced traders or novices. We offer customer services in English, Indonesian, Russian, Chinese and Spanish."
 msgstr "Chúng tôi thực sự tự hào về giải thưởng này. Chúng tôi cam kết cung cấp cho quý khách một trải nghiệm giao dịch có đạo đức và lấy khách hàng làm trung tâm, và các giải thưởng này cho thấy BetOnMarkets là một thương hiệu đáng tin cậy, luôn lắng nghe và phục vụ khách hàng, cho dù họ là nhà giao dịch có kinh nghiệm hay người mới. Chúng tôi cung cấp dịch vụ khách hàng bằng tiếng Anh, Indonesia, Nga, Trung Quốc và Tây Ban Nha."
 
-msgid "We've grown in size over the years - both in terms of manpower and offices. We currently have over %1 employees across four offices in Malaysia, Malta, Paraguay and Dubai. Further growth in headcount is expected this year to cater to the increased demand in our products and services."
-msgstr "Chúng tôi đã phát triển mạnh trong năm qua - cả về nguồn nhân lực và văn phòng. Chúng tôi hiện có hơn %1 nhân viên trên 4 văn phòng tại Malaysia, Malta và Dubai. Tiếp tục tăng số lượng nhân viên dự kiến năm nay để phục vụ cho nhu cầu ngày càng tăng của các sản phẩm và dịch vụ mà chúng tôi cung cấp."
+msgid "We've grown in size over the years - both in terms of manpower and offices. We currently have over %1 employees across 10 offices in Malta, Dubai, Malaysia, Paraguay, Cyprus, Rwanda, and Belarus. Further growth in headcount is expected this year to cater to the increased demand in our products and services."
+msgstr ""
 
 msgid "We've sent a secure link to %{number}"
 msgstr "Chúng tôi đã gửi một link an toàn tới %{number}"
@@ -14058,13 +14055,13 @@ msgid "Written limits and self-exclusion"
 msgstr "Giới hạn và tự loại trừ"
 
 msgid "XMR vs US dollar"
-msgstr ""
+msgstr "XMR vs đô la Mỹ"
 
 msgid "XMR/USD"
-msgstr ""
+msgstr "XMR/USD"
 
 msgid "XRP/USD"
-msgstr ""
+msgstr "XRP/USD"
 
 msgid "Yes"
 msgstr "Có"
@@ -14541,7 +14538,7 @@ msgid "Your transaction reference number is %1"
 msgstr "Số tham chiếu giao dịch của bạn là %1"
 
 msgid "Your virtual balance has been reset."
-msgstr ""
+msgstr "Số dư ảo của bạn đã được đặt lại."
 
 msgid "Your web browser (%1) is out of date and may affect your trading experience. Proceed at your own risk. %2Update browser%3"
 msgstr "Trình duyệt web (%1) của bạn đã hết hạn và có thể ảnh hưởng đến trải nghiệm giao dịch của bạn. Nếu tiếp tục bạn sẽ có thể gặp một vài rắc rối. %2Nâng cấp trình duyệt%3"
@@ -14562,10 +14559,10 @@ msgid "You’ve successfully closed your account. We’ll send a confirmation em
 msgstr "Bạn đã đóng tài khoản thành công. Chúng tôi sẽ gửi email xác nhận tới %1"
 
 msgid "ZEC vs US dollar"
-msgstr ""
+msgstr "ZEC vs đô la Mỹ"
 
 msgid "ZEC/USD"
-msgstr ""
+msgstr "ZEC/USD"
 
 msgid "ZingPay is a payment facility that allows online bank transfers for clients in South Africa."
 msgstr "ZingPay là một phương tiện thanh toán cho phép chuyển khoản ngân hàng trực tuyến cho khách hàng ở Nam Phi."

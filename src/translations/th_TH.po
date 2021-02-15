@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-static\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-02-04 06:40\n"
+"PO-Revision-Date: 2021-02-11 09:54\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "MIME-Version: 1.0\n"
@@ -29,16 +29,16 @@ msgid "10"
 msgstr "10"
 
 msgid "40"
-msgstr ""
+msgstr "40"
 
 msgid "50"
-msgstr ""
+msgstr "50"
 
 msgid "404"
 msgstr "404"
 
 msgid "500"
-msgstr ""
+msgstr "500"
 
 msgid " (account created)"
 msgstr " (สร้างบัญชีแล้ว)"
@@ -953,7 +953,7 @@ msgid "Access to the client's personal data is strictly prohibited, with the exc
 msgstr "การเข้าถึงข้อมูลส่วนบุคคลเป็นข้อห้ามอย่างเคร่งครัด ยกเว้นบุคคล %1 หลัก และเมื่อจำเป็นในการปฏิบัติงานตามหน้าที่ของบุคคลเหล่านี้เท่านั้น"
 
 msgid "Access your account with full trading permission."
-msgstr "เข้าถึงบัญชีของท่านด้วยสิทธิ์อย่างสมบูรณ์ในการซื้อขาย"
+msgstr ""
 
 msgid "Accomplished writing and editing skills with at least five years editorial experience in digital advertising or online media"
 msgstr "มีทักษะทางด้านการเขียนและการแก้ไขที่ประสบความสำเร็จ โดยมีประสบการณ์ด้านการเขียนบทบรรณาธิการอย่างน้อยห้าปีในด้านการโฆษณาดิจิทัลหรือสื่อออนไลน์"
@@ -1880,19 +1880,19 @@ msgid "B. Scope"
 msgstr "B. ขอบเขต"
 
 msgid "BCH/USD"
-msgstr ""
+msgstr "BCH/USD"
 
 msgid "BNB vs US dollar"
-msgstr ""
+msgstr "BNB เทียบกับดอลลาร์สหรัฐ"
 
 msgid "BNB/USD"
-msgstr ""
+msgstr "BNB/USD"
 
 msgid "BTC"
 msgstr "BTC"
 
 msgid "BTC/USD"
-msgstr ""
+msgstr "BTC/USD"
 
 msgid "Bachelor's degree in computer science, or an equivalent combination of technical education, training, and work experience"
 msgstr "สำเร็จการศึกษาสาขาวิทยาการคอมพิวเตอร์ หรือเทียบเท่า โดยมีทักษะเชิงเทคนิค เข้าร่วมอบรมหลักสูตรต่างๆ และประสบการณ์การทำงานที่เกี่ยวข้อง"
@@ -2447,7 +2447,7 @@ msgid "Change API Endpoint"
 msgstr "เปลี่ยน API ปลายทาง"
 
 msgid "Change MT5 password"
-msgstr "เปลี่ยนรหัสผ่าน MT5"
+msgstr ""
 
 msgid "Change Password"
 msgstr "เปลี่ยนรหัสผ่าน"
@@ -3339,7 +3339,7 @@ msgid "Current"
 msgstr "ปัจจุบัน"
 
 msgid "Current MT5 password"
-msgstr "รหัสผ่าน MT5 ปัจจุบัน "
+msgstr ""
 
 msgid "Current Time"
 msgstr "เวลาปัจจุบัน"
@@ -3426,7 +3426,7 @@ msgid "DIEL shall not be obliged to provide professional clients with the follow
 msgstr "DIEL จะไม่ได้ให้ Professional Clients ในรายการและสิทธิ์ต่อไปนี้:"
 
 msgid "DSH/USD"
-msgstr ""
+msgstr "DSH/USD"
 
 msgid "Daily Reset Indices – Daily Reset Indices replicate markets with a bullish and bearish trend with a constant volatility. The Bull Market and Bear Market indices start at 00:00 GMT each day, replicating bullish and bearish markets respectively."
 msgstr "ดัชนีถูกตั้งค่าใหม่รายวัน - ดัชนีถูกตั้งค่าใหม่รายวันจำลองสภาพตลาดที่มีแนวโน้มความตื่นตัวและความซบเซาของตลาดด้วยความผันผวนที่คงที่ ดัชนีกระทิง และดัชนีหมี เริ่มที่ 00:00 GMT ในแต่ละวัน เพื่อจำลองสภาพตลาดกระทิงและตลาดหมีตามลำดับ"
@@ -4047,10 +4047,10 @@ msgid "EOS vs US dollar"
 msgstr "EOS เทียบกับ ดอลลาร์สหรัฐ"
 
 msgid "EOS/USD"
-msgstr ""
+msgstr "EOS/USD"
 
 msgid "ETH/USD"
-msgstr ""
+msgstr "ETH/USD"
 
 msgid "EU Passport Rights"
 msgstr "สิทธิ์ตามหนังสือเดินทาง EU"
@@ -6348,7 +6348,7 @@ msgid "Investments &amp; Dividends"
 msgstr "เงินปันผลและการลงทุน"
 
 msgid "Investor"
-msgstr "นักลงทุน"
+msgstr ""
 
 msgid "Investor Compensation Scheme"
 msgstr "แผนผลประโยชน์ของนักลงทุน"
@@ -6597,7 +6597,7 @@ msgid "L. Manifest Error"
 msgstr "ฏ. ข้อผิดพลาดโดยเจตนา"
 
 msgid "LTC/USD"
-msgstr ""
+msgstr "LTC/USD"
 
 msgid "Labuan"
 msgstr "ลาบวน"
@@ -6981,10 +6981,10 @@ msgid "Maestro is an international debit card service by Mastercard. For more in
 msgstr "Maestro เป็นบริการบัตรเดบิตสากลของมาสเตอร์การ์ด สำหรับข้อมูลเพิ่มเติม โปรดศึกษาจาก %1"
 
 msgid "Main"
-msgstr "หลัก"
+msgstr ""
 
 msgid "Main password"
-msgstr "รหัสผ่านหลัก"
+msgstr ""
 
 msgid "Maintain accurate system pricing parameters"
 msgstr "ปรับปรุงตัวแปรราคาที่แม่นยำของระบบ"
@@ -7618,7 +7618,7 @@ msgid "Never Used"
 msgstr "ไม่เคยใช้"
 
 msgid "New MT5 password"
-msgstr "รหัสผ่าน MT5 ใหม่"
+msgstr ""
 
 msgid "New Password"
 msgstr "รหัสผ่านใหม่"
@@ -8115,8 +8115,8 @@ msgstr "บัญชี MetaTrader 5 Financial ของเราเหมาะ
 msgid "Our Synthetic account allows you to trade CFDs on Synthetic Indices - our proprietary synthetic assets that simulate market forces."
 msgstr "บัญชีสังเคราะห์ ของเราอนุญาตให้คุณซื้อขาย CFD ในดัชนีสังเคราะห์ - สินทรัพย์สังเคราะห์ที่เป็นกรรมสิทธิ์ของเราจากการจำลองเหตุการณ์ที่เป็นไปตามกลไกของตลาด"
 
-msgid "Our active client base is expected to reach over 175,000 total clients this year."
-msgstr "ฐานลูกค้าที่ใช้งานอยู่ของเราคาดว่าจะเข้าถึงลูกค้าได้มากกว่า 175,000 รายในปีนี้"
+msgid "Our active client base is expected to reach over 790,000 total clients this year."
+msgstr ""
 
 msgid "Our business is founded on collaboration and we aim to build long-term, mutually beneficial relationships with our partners. However, we will never compromise our commitment to business integrity. In cases where our partners are unwilling or unable to abide by our principles, we reserve the right to withdraw from the business relationship."
 msgstr "ธุรกิจของเราก่อตั้งขึ้นจากความร่วมมือและเรามุ่งมั่นที่จะสร้างความสัมพันธ์ระยะยาวและเป็นประโยชน์ร่วมกันกับหุ้นส่วนของเรา อย่างไรก็ตามเราจะไม่ลดทอนความมุ่งมั่นของเราที่มีต่อความซื่อสัตย์ทางธุรกิจ ในกรณีที่หุ้นส่วนของเราไม่เต็มใจหรือไม่สามารถปฏิบัติตามหลักการของเราได้ เราขอสงวนสิทธิ์ในการถอนตัวจากความสัมพันธ์ทางธุรกิจ"
@@ -8284,7 +8284,7 @@ msgid "Password should have lower and uppercase English letters with numbers."
 msgstr "รหัสผ่านควรประกอบด้วยตัวอักษรภาษาอังกฤษตัวพิมพ์เล็กและพิมพ์ใหญ่พร้อมตัวเลข"
 
 msgid "Password type"
-msgstr "ประเภทรหัสผ่าน"
+msgstr ""
 
 msgid "Patented technology"
 msgstr "เทคโนโลยีที่จดสิทธิบัตร"
@@ -9448,7 +9448,7 @@ msgid "Reset Call/Reset Put"
 msgstr "Reset Call/Reset Put"
 
 msgid "Reset MT5 password"
-msgstr "ตั้งค่ารหัสผ่าน MT5 ใหม่"
+msgstr ""
 
 msgid "Reset Password"
 msgstr "ตั้งรหัสผ่านใหม่"
@@ -9913,7 +9913,7 @@ msgid "Severability"
 msgstr "การโมฆะเป็นบางส่วน"
 
 msgid "Share access to your account without any permission to trade."
-msgstr "แชร์การเข้าถึงบัญชีของท่านโดยปราศจากการอนุญาตเข้าซื้อขาย"
+msgstr ""
 
 msgid "Sharp prices"
 msgstr "ราคาเฉียบ"
@@ -10432,7 +10432,7 @@ msgid "Swaps Long (per annum)"
 msgstr "สัญญาระยะยาว (ต่อปี)"
 
 msgid "Swaps Short (per annum)"
-msgstr ""
+msgstr "สวอปสั้น (ต่อปี)"
 
 msgid "Swiss franc vs Japanese yen"
 msgstr "ฟรังก์สวิส เทียบกับ เยนญี่ปุ่น"
@@ -12504,7 +12504,7 @@ msgid "To reset your password, enter the email address you used to create your a
 msgstr "เพื่อตั้งค่ารหัสผ่านของท่านใหม่ ป้อนอีเมล์ที่ท่านลงทะเบียนไว้ในช่องว่างข้างล่าง และคลิก 'ตั้งรหัสผ่านใหม่'"
 
 msgid "To reset your trading or investor password, please click the button below:"
-msgstr "โปรดคลิกที่ปุ่มด้านล่างนี้ เพื่อตั้งรหัสผ่านการซื้อขาย หรือ รหัสผ่านนักลงทุนใหม่"
+msgstr ""
 
 msgid "To smoothly verify you, we need a better photo"
 msgstr "หากต้องการยืนยันคุณอย่างราบรื่นเราต้องการภาพถ่ายที่ดีกว่า"
@@ -13269,10 +13269,10 @@ msgid "Verify identity"
 msgstr "ยืนยันตัวตน"
 
 msgid "Verify main password"
-msgstr "ตรวจสอบรหัสผ่านหลัก"
+msgstr ""
 
 msgid "Verify new MT5 password"
-msgstr "ตรวจสอบรหัสผ่าน MT5 ใหม่ "
+msgstr ""
 
 msgid "Verify new password"
 msgstr "ตรวจสอบรหัสผ่านใหม่"
@@ -13547,9 +13547,6 @@ msgstr "เราจะเปรียบเทียบกับเอกสา
 msgid "We're almost there"
 msgstr "เราใกล้จะถึงแล้ว"
 
-msgid "We're expected to generate over 2 USD billion in turnover this year, bringing our total turnover since inception to over 9.2 USD billion."
-msgstr "เราคาดว่าจะสร้างมูลค่าการซื้อขายได้มากกว่า 2 พันล้านเหรียญสหรัฐในปีนี้ทำให้มูลค่าการซื้อขายรวมของเราตั้งแต่เริ่มก่อตั้งเป็นเงินกว่า 9.2 พันล้านเหรียญ"
-
 msgid "We're granted patents for 'Computer trading system and method for speculating on a financial market' and 'Computer trading system for offering custom financial market speculations'. The patents show our ability to innovate and stay ahead of the pack."
 msgstr "พวกเราได้รับสิทธิบัตรสำหรับ 'ระบบคอมพิวเตอร์สำหรับการซื้อขายและวิธีในการเก็งกำไรในตลาดการเงิน' และ 'ระบบคอมพิวเตอร์สำหรับการซื้อขายที่นำเสนอการเก็งกำไรในตลาดการเงิน' สิทธิบัตรแสดงถึงความสามารถของพวกเราในการสร้างสรรค์และนำหน้าตลาด"
 
@@ -13562,14 +13559,14 @@ msgstr "เราไม่มีข้อผูกมัดในการดำ
 msgid "We're now ready to verify your identity"
 msgstr "ตอนนี้เราพร้อมแล้วที่จะยืนยันตัวตนของคุณ"
 
-msgid "We're projected to register over 377 million transactions this year, bringing the total number of contracts that were bought and sold on our platform since inception to over 1.42 billion."
-msgstr "เราคาดการณ์ที่จะลงทะเบียนในธุรกรรมมากกว่า 377 ล้านธุรกรรมในปีนี้ ซึ่งทำให้จำนวนสัญญาที่ถูกซื้อและขายบนแพลตฟอร์มของเราตั้งแต่ก่อตั้งมีมากกว่า 1.42 พันล้านธุรกรรม"
+msgid "We're projected to register over 1.1 billion transactions this year, bringing the total number of contracts that were bought and sold on our platform since inception to over 2.8 billion."
+msgstr ""
 
 msgid "We're really proud of this award. We're strongly committed to offering an ethical and customer-focused trading experience, and the award shows that BetOnMarkets is a trusted brand that listens and caters to customers, whether they are experienced traders or novices. We offer customer services in English, Indonesian, Russian, Chinese and Spanish."
 msgstr "พวกเรามีความภูมิใจในรางวัลนี้มาก พวกเราให้คำสัญญาอย่างแน่วแน่ในการทำให้ท่านมีประสบการณ์การซื้อขายอย่างมีจริยธรรม รางวัลนี้แสดงว่า BetOnMarkets เป็นแบรนด์ที่ได้รับความไว้วางใจ รับฟังและดูแลลูกค้า ผู้ซึ่งมีประสบการณ์ในการลงทุนมาแล้ว หรือ นักลงทุนมือใหม่ พวกเรามีทีมงานลูกค้าสัมพันธ์ที่สามารถสื่อสารกับท่านได้ด้วยภาษาอังกฤษ ภาษาอินโดนีเซีย ภาษารัสเซีย ภาษาจีน และภาษาสเปน"
 
-msgid "We've grown in size over the years - both in terms of manpower and offices. We currently have over %1 employees across four offices in Malaysia, Malta, Paraguay and Dubai. Further growth in headcount is expected this year to cater to the increased demand in our products and services."
-msgstr "เราเติบโตขึ้นในช่วงหลายปีที่ผ่านมาทั้งในด้านกำลังคนและสำนักงาน ปัจจุบันเรามีพนักงานมากกว่า %1 คนในสำนักงาน 4 แห่งในมาเลเซีย มอลตา ปารากวัยและดูไบ คาดว่าการเติบโตของจำนวนพนักงานเพิ่มขึ้นในปีนี้เพื่อรองรับความต้องการที่เพิ่มขึ้นในผลิตภัณฑ์และบริการของเรา"
+msgid "We've grown in size over the years - both in terms of manpower and offices. We currently have over %1 employees across 10 offices in Malta, Dubai, Malaysia, Paraguay, Cyprus, Rwanda, and Belarus. Further growth in headcount is expected this year to cater to the increased demand in our products and services."
+msgstr ""
 
 msgid "We've sent a secure link to %{number}"
 msgstr "เราได้ส่งลิงก์ที่ปลอดภัยไปยัง %{number}"
@@ -14058,13 +14055,13 @@ msgid "Written limits and self-exclusion"
 msgstr "วงเงินและการพักการซื้อขายที่แจ้งเป็นลายลักษณ์อักษร"
 
 msgid "XMR vs US dollar"
-msgstr ""
+msgstr "XMR เทียบกับดอลลาร์สหรัฐ"
 
 msgid "XMR/USD"
-msgstr ""
+msgstr "XMR/USD"
 
 msgid "XRP/USD"
-msgstr ""
+msgstr "XRP/USD"
 
 msgid "Yes"
 msgstr "ใช่"
@@ -14541,7 +14538,7 @@ msgid "Your transaction reference number is %1"
 msgstr "หมายเลขอ้างอิงของธุรกรรมของท่าน คือ %1"
 
 msgid "Your virtual balance has been reset."
-msgstr ""
+msgstr "ยอดคงเหลือเสมือนของคุณถูกรีเซ็ตแล้ว"
 
 msgid "Your web browser (%1) is out of date and may affect your trading experience. Proceed at your own risk. %2Update browser%3"
 msgstr "เว็บเบราเซอร์ของท่าน (%1) ไม่ได้ปรับปรุงให้ทันสมัย ซึ่งส่งผลต่อการใช้งานในการซื้อขายของท่าน โปรดดำเนินการเพื่อแก้ไขความเสี่ยงนี้โดยตัวท่านเองสามารถ %2 ปรับปรุงเบราเซอร์ให้เหมาะกับการใช้งาน %3"
@@ -14562,10 +14559,10 @@ msgid "You’ve successfully closed your account. We’ll send a confirmation em
 msgstr "คุณได้ปิดบัญชีเรียบร้อยแล้ว เราจะส่งอีเมลยืนยันไปที่ %1"
 
 msgid "ZEC vs US dollar"
-msgstr ""
+msgstr "ZEC เทียบกับดอลลาร์สหรัฐ"
 
 msgid "ZEC/USD"
-msgstr ""
+msgstr "ZEC/USD"
 
 msgid "ZingPay is a payment facility that allows online bank transfers for clients in South Africa."
 msgstr "ZingPay เป็นระบบการชำระเงินที่อนุญาตให้โอนเงินผ่านธนาคารออนไลน์สำหรับลูกค้าในแอฟริกาใต้"
