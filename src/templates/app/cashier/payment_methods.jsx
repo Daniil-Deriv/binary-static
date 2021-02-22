@@ -38,17 +38,7 @@ const ReferenceLink = ({ href, className = '', title = '' }) => (
 
 const ReferenceLinks = ({ pdf_file, video_link }) => (
     <React.Fragment>
-        {!pdf_file && !video_link && <span>&mdash;</span>}
-        {pdf_file && <ReferenceLink
-            className='payment-methods__reference-pdf'
-            href={pdf_file && it.url_for(`download/payment/${pdf_file}`)}
-            title={pdf_file}
-        />}
-        {video_link && <ReferenceLink
-            className='payment-methods__reference-video'
-            href={video_link}
-            title={it.L('Video tutorial')}
-        />}
+      —
     </React.Fragment>
 );
 
