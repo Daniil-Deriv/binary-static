@@ -25,18 +25,7 @@ const TableValues = ({ value }) => {
     );
 };
 
-const ReferenceLink = ({ href, className = '', title = '' }) => (
-    <a
-        className={`payment-methods__reference ${className}`}
-        href={href}
-        target='_blank'
-        aria-disabled={!href}
-        title={title}
-        rel='noopener noreferrer'
-    />
-);
-
-const ReferenceLinks = ({ pdf_file, video_link }) => (
+const ReferenceLinks = () => (
     <React.Fragment>
       —
     </React.Fragment>
