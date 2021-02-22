@@ -11360,7 +11360,7 @@ var Header = function () {
                     return buildMessage(localizeKeepPlaceholders('Please [_1]complete your account profile[_2] to lift your withdrawal and trading limits.'), 'user/settings/detailsws');
                 },
                 unwelcome: function unwelcome() {
-                    return buildMessage('Trading and deposits have been disabled on your account. Kindly allow us some time to review the account.');
+                    return localize('Trading and deposits have been disabled on your account. Kindly allow us some time to review the account.');
                 },
                 withdrawal_locked_review: function withdrawal_locked_review() {
                     return localize('Withdrawals have been disabled on your account. Please wait until your uploaded documents are verified.');
@@ -17873,6 +17873,7 @@ var toggleDownloadPage = function toggleDownloadPage(target) {
         (0, _common_functions.getElementById)(target + '-description').setVisibility(1);
     }
     (0, _common_functions.getElementById)('mt5_download_' + (target === 'mac' ? 'mac_' : '') + 'platforms').setVisibility(1);
+    (0, _common_functions.getElementById)('mt5_download_' + (target !== 'mac' ? 'mac_' : '') + 'platforms').setVisibility(0);
 };
 var DownloadMetatrader = function () {
     var onLoad = function onLoad() {
