@@ -14,17 +14,17 @@ const IconWithLink = ({ button_id, button_link, img_id, img_src }) => (
     </div>
 );
 
-const  ChangeAddAccount = ({ has_crypto_account }) => (
-        <div className= 'gr-2 gr-12-m'>
-            <SeparatorLine className='gr-parent gr-hide gr-show-m gr-padding-10' invisible />
-            <div className='gr-row gr-row-align-left gr-row-align-right-m'>
-                <div className='gr-adapt'>
-                    <Button href={it.url_for('user/accounts')} className={'toggle button add-account-btn invisible'} text={it.L('Add account')} />
-                    <Button href={null} className={'toggle button change-account-btn invisible'} text={it.L('Change')} />
-                </div>
+const  ChangeAddAccount = () => (
+    <div className= 'gr-2 gr-12-m'>
+        <SeparatorLine className='gr-parent gr-hide gr-show-m gr-padding-10' invisible />
+        <div className='gr-row gr-row-align-left gr-row-align-right-m'>
+            <div className='gr-adapt'>
+                <Button href={it.url_for('user/accounts')} className={'toggle button add-account-btn invisible'} text={it.L('Add account')} />
+                <Button href={null} className={'toggle button change-account-btn invisible'} text={it.L('Change')} />
             </div>
         </div>
-    );
+    </div>
+);
 
 const DepositWithdrawButton = ({ is_payment_agent, is_virtual }) => (
     <div className= {is_virtual ? 'gr-4 gr-12-m' : 'gr-2 gr-12-m'}>

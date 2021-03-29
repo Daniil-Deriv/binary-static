@@ -254,9 +254,9 @@ const Cashier = (() => {
                     $('.normal_currency').setVisibility(1);
                     $('.change-account-btn').on('click', (e)=>{
                         $('.main-account').trigger('click');
-                        $("html, body").animate({ scrollTop: 0 }, "slow");
+                        $('html, body').animate({ scrollTop: 0 }, 'slow');
                         e.stopPropagation();
-                    })
+                    });
                 }
 
                 if (!Client.isLoggedIn()) return;
@@ -265,8 +265,7 @@ const Cashier = (() => {
                     if (allCurrencies.some((e) => Currency.isCryptocurrency(e))){
                         $('.change-account-btn').setVisibility(1);
                         $('.add-account-btn').setVisibility(0);
-                    }
-                    else{
+                    } else {
                         $('.add-account-btn').setVisibility(1);
                         $('.change-account-btn').setVisibility(0);
                     }
