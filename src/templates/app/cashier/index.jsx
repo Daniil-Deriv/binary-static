@@ -19,8 +19,8 @@ const  ChangeAddAccount = () => (
         <SeparatorLine className='gr-parent gr-hide gr-show-m gr-padding-10' invisible />
         <div className='gr-row gr-row-align-left gr-row-align-right-m'>
             <div className='gr-adapt'>
-                <Button href={it.url_for('user/accounts')} className={'toggle button add-account-btn invisible'} text={it.L('Add account')} />
-                <Button href={null} className={'toggle button change-account-btn invisible'} text={it.L('Change')} />
+                <Button href={it.url_for('user/accounts')} className='toggle button add-account-btn invisible' text={it.L('Add account')} />
+                <Button href={null} className='toggle button change-account-btn invisible' text={it.L('Change')} />
             </div>
         </div>
     </div>
