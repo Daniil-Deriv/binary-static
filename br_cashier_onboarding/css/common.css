@@ -686,6 +686,9 @@ ul.bullet.gr-row > li {
   color: #c2c2c2;
   display: inline-block; }
 
+.change-account-btn {
+  margin-left: 0 !important; }
+
 .button + .button {
   margin-left: 10px; }
 
