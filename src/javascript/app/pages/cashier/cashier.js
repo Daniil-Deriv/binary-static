@@ -258,7 +258,6 @@ const Cashier = (() => {
                         e.stopPropagation();
                     });
                 }
-
                 
 
                 if (!Client.isLoggedIn()) return;
