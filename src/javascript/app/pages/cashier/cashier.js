@@ -252,23 +252,22 @@ const Cashier = (() => {
                     $('#view_payment_methods').attr('href', previous_href.concat('?anchor=cryptocurrency'));
                 } else {
                     $('.normal_currency').setVisibility(1);
-                    $('.change-account-btn').on('click', (e)=>{
+                    $('.change-account-btn').off('click').on('click', (e)=>{
                         $('.main-account').trigger('click');
                         $('html, body').animate({ scrollTop: 0 }, 'slow');
                         e.stopPropagation();
                     });
                 }
 
+                
+
                 if (!Client.isLoggedIn()) return;
                 BinarySocket.wait('authorize').then(() => {
                     const allCurrencies = Client.getAllLoginids().map((loginid) => Client.get('currency', loginid));
-                    if (allCurrencies.some((e) => Currency.isCryptocurrency(e))){
-                        $('.change-account-btn').setVisibility(1);
-                        $('.add-account-btn').setVisibility(0);
-                    } else {
-                        $('.add-account-btn').setVisibility(1);
-                        $('.change-account-btn').setVisibility(0);
-                    }
+                    const has_crypto_currency = allCurrencies.some((e) => Currency.isCryptocurrency(e));
+                    $('.change-account-btn').setVisibility(has_crypto_currency);
+                    $('.add-account-btn').setVisibility(!has_crypto_currency);
+
                 });
                     
             });
