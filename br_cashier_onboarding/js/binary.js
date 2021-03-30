@@ -16315,7 +16315,7 @@ var Cashier = function () {
                     $('#view_payment_methods').attr('href', previous_href.concat('?anchor=cryptocurrency'));
                 } else {
                     $('.normal_currency').setVisibility(1);
-                    $('.change-account-btn').on('click', function (e) {
+                    $('.change-account-btn').off('click').on('click', function (e) {
                         $('.main-account').trigger('click');
                         $('html, body').animate({ scrollTop: 0 }, 'slow');
                         e.stopPropagation();
@@ -16327,15 +16327,11 @@ var Cashier = function () {
                     var allCurrencies = Client.getAllLoginids().map(function (loginid) {
                         return Client.get('currency', loginid);
                     });
-                    if (allCurrencies.some(function (e) {
+                    var has_crypto_currency = allCurrencies.some(function (e) {
                         return Currency.isCryptocurrency(e);
-                    })) {
-                        $('.change-account-btn').setVisibility(1);
-                        $('.add-account-btn').setVisibility(0);
-                    } else {
-                        $('.add-account-btn').setVisibility(1);
-                        $('.change-account-btn').setVisibility(0);
-                    }
+                    });
+                    $('.change-account-btn').setVisibility(has_crypto_currency);
+                    $('.add-account-btn').setVisibility(!has_crypto_currency);
                 });
             });
         }
