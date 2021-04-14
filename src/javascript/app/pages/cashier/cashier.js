@@ -252,7 +252,7 @@ const Cashier = (() => {
                     $('#view_payment_methods').attr('href', previous_href.concat('?anchor=cryptocurrency'));
                 } else {
                     $('.normal_currency').setVisibility(1);
-                    $('.change-account-btn').off('click').on('click', (e)=>{
+                    $('#change-account-btn').off('click').on('click', (e)=>{
                         $('.main-account').trigger('click');
                         $('html, body').animate({ scrollTop: 0 }, 'slow');
                         e.stopPropagation();
@@ -261,8 +261,8 @@ const Cashier = (() => {
                 
                 if (!Client.isLoggedIn()) return;
                 BinarySocket.wait('authorize').then(() => {
-                    const allCurrencies = Client.getAllLoginids().map((loginid) => Client.get('currency', loginid));
-                    const has_crypto_currency = allCurrencies.some((e) => Currency.isCryptocurrency(e));
+                    const all_currencies = Client.getAllLoginids().map((loginid) => Client.get('currency', loginid));
+                    const has_crypto_currency = all_currencies.some((e) => Currency.isCryptocurrency(e));
                     $('.change-account-btn').setVisibility(has_crypto_currency);
                     $('.add-account-btn').setVisibility(!has_crypto_currency);
 

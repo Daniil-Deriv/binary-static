@@ -20,7 +20,7 @@ const  ChangeAddAccount = () => (
         <div className='gr-row gr-row-align-left gr-row-align-right-m'>
             <div className='gr-adapt'>
                 <Button href={it.url_for('user/accounts')} className='toggle button add-account-btn invisible' text={it.L('Add account')} />
-                <Button href={null} className='toggle button change-account-btn invisible' text={it.L('Change')} />
+                <Button href={null} className='toggle button change-account-btn invisible' id='change-account-btn' text={it.L('Change account')} />
             </div>
         </div>
     </div>
@@ -106,7 +106,7 @@ const Cashier = () => (
 
         <div className='gr-padding-10 table-body'>
             <h3 className='gr-padding-10'>
-                <span className='invisible normal_currency client_logged_out'>{it.L('Cash')}</span>
+                <span className='invisible normal_currency client_logged_out'>{it.L('Via bank wire, credit card, and e-wallet')}</span>
                 <span className='invisible crypto_currency'>{it.L('Cryptocurrency')}</span>
             </h3>
             <div className='gr-row'>
@@ -117,7 +117,7 @@ const Cashier = () => (
                     img_src={it.url_for('images/pages/cashier/payment-methods.svg')}
                 />
                 <div className='gr-6 gr-8-m'>
-                    <span className='invisible normal_currency client_logged_out'>{it.L('Desposit or withdraw cash via payment methods available in your country.')}</span>
+                    <span className='invisible normal_currency client_logged_out'>{it.L('Deposit or withdraw cash via payment methods available in your country.')}</span>
                     <span className='invisible crypto_currency'>{it.L('Manage the funds in your cryptocurrency account.')}</span>
                     &nbsp;
                     <a className='invisible normal_currency crypto_currency' href={`${it.url_for('cashier/payment_methods')}`} id='view_payment_methods'>
@@ -127,23 +127,6 @@ const Cashier = () => (
                 </div>
                 <CashierNote className='gr-12 gr-hide gr-show-m gr-child' text={it.L('Please do not share your bank account, credit card, or e-wallet with another client, as this may cause delays in your withdrawals.')} />
                 <DepositWithdrawButton />
-            </div>
-        </div>
-
-        <div className='gr-padding-10 table-body invisible normal_currency client_logged_out'>
-            <h3 className='gr-padding-10'>
-                <span className='invisible normal_currency client_logged_out'>{it.L('Crypto')}</span>
-            </h3>
-            <div className='gr-row'>
-                <IconWithLink
-                    img_id='cryptocurrencies_icon'
-                    img_src={it.url_for('images/pages/cashier/cryptocurrencies.svg')}
-                />
-                <div className='gr-6 gr-8-m'>
-                    <span className='invisible normal_currency client_logged_out'>{it.L('Receive crypto to a deposit address, or buy crypto with cash.')}</span>
-                    &nbsp;
-                </div>
-                <ChangeAddAccount />
             </div>
         </div>
 
@@ -164,6 +147,26 @@ const Cashier = () => (
                 </div>
                 <CashierNote className='gr-12 gr-hide gr-show-m gr-child' text={it.L('Withdrawal via payment agent is available only if you deposit exclusively via payment agent.')} />
                 <DepositWithdrawButton is_payment_agent />
+            </div>
+        </div>
+
+        <hr />
+
+        <div className='gr-padding-10 table-body invisible normal_currency client_logged_out'>
+            <h3 className='gr-padding-10'>
+                <span className='invisible normal_currency client_logged_out'>{it.L('Cryptocurrencies')}</span>
+            </h3>
+            <div className='gr-row'>
+                <IconWithLink
+                    img_id='cryptocurrencies_icon'
+                    img_src={it.url_for('images/pages/cashier/cryptocurrencies.svg')}
+                />
+                <div className='gr-6 gr-8-m'>
+                    <span className='invisible normal_currency add-account-btn client_logged_out'>Looking for an alternative way to make deposits? <br /> Add a cryptocurrency account and make deposits to fund your account.</span>
+                    <span className='invisible normal_currency change-account-btn client_logged_out'>Looking for an alternative way to make deposits? <br /> Switch to your cryptocurrency account and make deposits to fund your account.</span>
+                    &nbsp;
+                </div>
+                <ChangeAddAccount />
             </div>
         </div>
 
