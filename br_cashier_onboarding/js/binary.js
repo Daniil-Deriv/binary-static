@@ -16322,9 +16322,9 @@ var Cashier = function () {
                 } else {
                     $('.normal_currency').setVisibility(1);
                     $('#change-account-btn').off('click').on('click', function (e) {
+                        e.stopPropagation();
                         $('.main-account').trigger('click');
                         $('html, body').animate({ scrollTop: 0 }, 'slow');
-                        e.stopPropagation();
                     });
                 }
 
