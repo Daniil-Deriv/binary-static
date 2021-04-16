@@ -20,7 +20,7 @@ const  ChangeAddAccount = () => (
         <div className='gr-row gr-row-align-left gr-row-align-right-m'>
             <div className='gr-adapt'>
                 <Button href={it.url_for('user/accounts')} className='toggle button add-account-btn invisible' text={it.L('Add account')} />
-                <Button href={null} className='toggle button change-account-btn invisible' id='change-account-btn' text={it.L('Change account')} />
+                <Button href='javascript:;' className='toggle button change-account-btn invisible' id='change-account-btn' text={it.L('Change account')} />
             </div>
         </div>
     </div>
