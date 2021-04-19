@@ -259,7 +259,6 @@ const Cashier = (() => {
                     });
                 }
                 
-                if (!Client.isLoggedIn()) return;
                 BinarySocket.wait('authorize').then(() => {
                     const all_currencies = Client.getAllLoginids().map((loginid) => Client.get('currency', loginid));
                     const has_crypto_currency = all_currencies.some((e) => Currency.isCryptocurrency(e));
