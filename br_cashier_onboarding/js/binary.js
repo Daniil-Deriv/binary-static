@@ -16328,7 +16328,6 @@ var Cashier = function () {
                     });
                 }
 
-                if (!Client.isLoggedIn()) return;
                 BinarySocket.wait('authorize').then(function () {
                     var all_currencies = Client.getAllLoginids().map(function (loginid) {
                         return Client.get('currency', loginid);
