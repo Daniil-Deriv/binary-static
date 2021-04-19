@@ -164,7 +164,6 @@ const Cashier = () => (
                 <div className='gr-6 gr-8-m'>
                     <span className='invisible normal_currency add-account-btn client_logged_out'>{it.L('Looking for an alternative way to make deposits?')} <br /> {it.L('Add a cryptocurrency account and make deposits to fund your account.')}</span>
                     <span className='invisible normal_currency change-account-btn client_logged_out'>{it.L('Looking for an alternative way to make deposits?')} <br /> {it.L('Switch to your cryptocurrency account and make deposits to fund your account.')}</span>
-                    &nbsp;
                 </div>
                 <ChangeAddAccount />
             </div>
