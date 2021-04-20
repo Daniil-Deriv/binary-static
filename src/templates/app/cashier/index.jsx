@@ -121,7 +121,7 @@ const Cashier = () => (
                     <span className='invisible crypto_currency'>{it.L('Manage the funds in your cryptocurrency account.')}</span>
                     &nbsp;
                     <a className='invisible normal_currency crypto_currency' href={`${it.url_for('cashier/payment_methods')}`} id='view_payment_methods'>
-                        <span>{it.L('View available payment methods')}</span>
+                        <span>{it.L('View available payment methods.')}</span>
                     </a>
                     <CashierNote className='gr-hide-m gr-child' text={it.L('Please do not share your bank account, credit card, or e-wallet with another client, as this may cause delays in your withdrawals.')} />
                 </div>
@@ -150,7 +150,7 @@ const Cashier = () => (
             </div>
         </div>
 
-        <hr />
+        <hr className = 'horizontal_line' />
 
         <div className='gr-padding-10 table-body invisible normal_currency client_logged_out'>
             <h3 className='gr-padding-10'>
