@@ -686,11 +686,16 @@ ul.bullet.gr-row > li {
   color: #c2c2c2;
   display: inline-block; }
 
-.change-account-btn {
-  margin-left: 0 !important; }
-
-#change-account-btn {
+.cashier-button {
+  margin-left: 0 !important;
   white-space: nowrap; }
+
+#VRTC-btn {
+  margin-left: -1.3rem !important; }
+
+.horizontal_line {
+  margin-top: 1rem;
+  border: 0.5px solid #dedede; }
 
 .button + .button {
   margin-left: 10px; }
