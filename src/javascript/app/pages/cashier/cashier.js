@@ -219,6 +219,12 @@ const Cashier = (() => {
                 const currency   = Client.get('currency');
                 if (is_virtual) {
                     displayResetButton();
+                    $('.change-account-btn-VRTC').off('click').on('click', (e)=>{
+                        e.stopPropagation();
+                        $('.main-account').trigger('click');
+                        $('html, body').animate({ scrollTop: 0 }, 'slow');
+                    });
+               
                 } else if (currency) {
                     const is_p2p_allowed_currency = currency === 'USD';
                     const is_show_dp2p = /show_dp2p/.test(window.location.hash);
@@ -247,12 +253,17 @@ const Cashier = (() => {
 
                 if (Currency.isCryptocurrency(currency)) {
                     $('.crypto_currency').setVisibility(1);
+                    $('.change-account-btn-crypto').off('click').on('click', (e)=>{
+                        e.stopPropagation();
+                        $('.main-account').trigger('click');
+                        $('html, body').animate({ scrollTop: 0 }, 'slow');
+                    });
 
                     const previous_href = $('#view_payment_methods').attr('href');
                     $('#view_payment_methods').attr('href', previous_href.concat('?anchor=cryptocurrency'));
                 } else {
                     $('.normal_currency').setVisibility(1);
-                    $('#change-account-btn').off('click').on('click', (e)=>{
+                    $('.change-account-btn').off('click').on('click', (e)=>{
                         e.stopPropagation();
                         $('.main-account').trigger('click');
                         $('html, body').animate({ scrollTop: 0 }, 'slow');
@@ -262,9 +273,14 @@ const Cashier = (() => {
                 BinarySocket.wait('authorize').then(() => {
                     const all_currencies = Client.getAllLoginids().map((loginid) => Client.get('currency', loginid));
                     const has_crypto_currency = all_currencies.some((e) => Currency.isCryptocurrency(e));
+                    const has_fiat_currency = all_currencies.some((e) => !Currency.isCryptocurrency(e));
+                    const has_real_accounts = Client.getAllLoginids().map((loginid) => Client.get('is_virtual', loginid)).includes(false);
                     $('.change-account-btn').setVisibility(has_crypto_currency);
                     $('.add-account-btn').setVisibility(!has_crypto_currency);
-
+                    $('.change-account-btn-crypto').setVisibility(has_fiat_currency);
+                    $('.add-account-btn-crypto').setVisibility(!has_fiat_currency);
+                    $('.change-account-btn-VRTC').setVisibility((has_fiat_currency && has_real_accounts));
+                    $('.add-account-btn-VRTC').setVisibility(!has_real_accounts);
                 });
                     
             });

@@ -674,12 +674,13 @@ ul.bullet.gr-row > li {
     display: inline-block;
 }
 
-.change-account-btn {
+.cashier-button {
     margin-left: 0 !important;
+    white-space: nowrap;
 }
 
-#change-account-btn {
-    white-space: nowrap;
+#VRTC-btn {
+    margin-left: -1.3rem !important;
 }
 
 .horizontal_line {

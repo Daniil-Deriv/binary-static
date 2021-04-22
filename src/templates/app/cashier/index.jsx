@@ -14,13 +14,25 @@ const IconWithLink = ({ button_id, button_link, img_id, img_src }) => (
     </div>
 );
 
-const  ChangeAddAccount = () => (
+const  ChangeAddAccount = ({ is_crypto }) => (
     <div className= 'gr-2 gr-12-m'>
         <SeparatorLine className='gr-parent gr-hide gr-show-m gr-padding-10' invisible />
         <div className='gr-row gr-row-align-left gr-row-align-right-m'>
             <div className='gr-adapt'>
-                <Button href={it.url_for('user/accounts')} className='toggle button add-account-btn invisible' text={it.L('Add account')} />
-                <Button href='javascript:;' className='toggle button change-account-btn invisible' id='change-account-btn' text={it.L('Change account')} />
+                <Button href={it.url_for('user/accounts')} className={`${is_crypto ? 'add-account-btn-crypto' : 'add-account-btn'} toggle button invisible cashier-button`} text={it.L('Add account')} />
+                <Button href='javascript:;' className={`${is_crypto ? 'change-account-btn-crypto' : 'change-account-btn'} toggle button invisible cashier-button`} text={it.L('Change account')} />
+            </div>
+        </div>
+    </div>
+);
+
+const ChangeAddAccountVRTC = () => (
+    <div className= 'gr-2 gr-12-m'>
+        <SeparatorLine className='gr-parent gr-hide gr-show-m gr-padding-10' invisible />
+        <div className='gr-row gr-row-align-left gr-row-align-right-m'>
+            <div className='gr-adapt'>
+                <Button href={it.url_for('user/accounts')} className='add-account-btn-VRTC toggle button invisible cashier-button' id='VRTC-btn' text={it.L('Create real account')} />
+                <Button href='javascript:;' className='change-account-btn-VRTC toggle button invisible cashier-button' id='VRTC-btn' text={it.L('Switch to real account')} />
             </div>
         </div>
     </div>
@@ -107,7 +119,7 @@ const Cashier = () => (
         <div className='gr-padding-10 table-body'>
             <h3 className='gr-padding-10'>
                 <span className='invisible normal_currency client_logged_out'>{it.L('Via bank wire, credit card, and e-wallet')}</span>
-                <span className='invisible crypto_currency'>{it.L('Cryptocurrency')}</span>
+                <span className='invisible crypto_currency'>{it.L('Via bank wire, credit card, and e-wallet')}</span>
             </h3>
             <div className='gr-row'>
                 <IconWithLink
@@ -118,7 +130,7 @@ const Cashier = () => (
                 />
                 <div className='gr-6 gr-8-m'>
                     <span className='invisible normal_currency client_logged_out'>{it.L('Deposit or withdraw cash via payment methods available in your country.')}</span>
-                    <span className='invisible crypto_currency'>{it.L('Manage the funds in your cryptocurrency account.')}</span>
+                    <span className='invisible crypto_currency'>{it.L('Deposit or withdraw cash via payment methods available in your country.')}</span>
                     &nbsp;
                     <a className='invisible normal_currency crypto_currency' href={`${it.url_for('cashier/payment_methods')}`} id='view_payment_methods'>
                         <span>{it.L('View available payment methods.')}</span>
@@ -126,7 +138,15 @@ const Cashier = () => (
                     <CashierNote className='gr-hide-m gr-child' text={it.L('Please do not share your bank account, credit card, or e-wallet with another client, as this may cause delays in your withdrawals.')} />
                 </div>
                 <CashierNote className='gr-12 gr-hide gr-show-m gr-child' text={it.L('Please do not share your bank account, credit card, or e-wallet with another client, as this may cause delays in your withdrawals.')} />
-                <DepositWithdrawButton />
+                <div className='invisible normal_currency'>
+                    <DepositWithdrawButton />
+                </div>
+                <div className='invisible crypto_currency'>
+                    <ChangeAddAccount is_crypto = {true} />
+                </div>
+                <div className = 'invisible client_virtual'>
+                    <ChangeAddAccountVRTC />
+                </div>
             </div>
         </div>
 
@@ -150,7 +170,7 @@ const Cashier = () => (
             </div>
         </div>
 
-        <hr className = 'horizontal_line' />
+        <hr className = 'horizontal_line invisible normal_currency' />
 
         <div className='gr-padding-10 table-body invisible normal_currency client_logged_out'>
             <h3 className='gr-padding-10'>
@@ -165,7 +185,7 @@ const Cashier = () => (
                     <span className='invisible normal_currency add-account-btn client_logged_out'>{it.L('Looking for an alternative way to make deposits?')} <br /> {it.L('Add a cryptocurrency account and make deposits to fund your account.')}</span>
                     <span className='invisible normal_currency change-account-btn client_logged_out'>{it.L('Looking for an alternative way to make deposits?')} <br /> {it.L('Switch to your cryptocurrency account and make deposits to fund your account.')}</span>
                 </div>
-                <ChangeAddAccount />
+                <ChangeAddAccount is_crypto = {false} />
             </div>
         </div>
 
