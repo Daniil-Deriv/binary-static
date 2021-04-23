@@ -26,13 +26,13 @@ const  ChangeAddAccount = ({ is_crypto }) => (
     </div>
 );
 
-const ChangeAddAccountVRTC = () => (
+const ChangeAddAccountDemo = () => (
     <div className= 'gr-2 gr-12-m'>
         <SeparatorLine className='gr-parent gr-hide gr-show-m gr-padding-10' invisible />
         <div className='gr-row gr-row-align-left gr-row-align-right-m'>
             <div className='gr-adapt'>
-                <Button href={it.url_for('user/accounts')} className='add-account-btn-VRTC toggle button invisible cashier-button' id='VRTC-btn' text={it.L('Create real account')} />
-                <Button href='javascript:;' className='change-account-btn-VRTC toggle button invisible cashier-button' id='VRTC-btn' text={it.L('Switch to real account')} />
+                <Button href={it.url_for('user/accounts')} className='add-account-btn-demo toggle button invisible cashier-button' id='demo-btn' text={it.L('Create real account')} />
+                <Button href='javascript:;' className='change-account-btn-demo toggle button invisible cashier-button' id='demo-btn' text={it.L('Switch to real account')} />
             </div>
         </div>
     </div>
@@ -144,8 +144,8 @@ const Cashier = () => (
                 <div className='invisible crypto_currency'>
                     <ChangeAddAccount is_crypto = {true} />
                 </div>
-                <div className = 'invisible client_virtual'>
-                    <ChangeAddAccountVRTC />
+                <div className='invisible client_virtual'>
+                    <ChangeAddAccountDemo />
                 </div>
             </div>
         </div>
@@ -170,7 +170,7 @@ const Cashier = () => (
             </div>
         </div>
 
-        <hr className = 'horizontal_line invisible normal_currency' />
+        <hr className='horizontal_line invisible normal_currency' />
 
         <div className='gr-padding-10 table-body invisible normal_currency client_logged_out'>
             <h3 className='gr-padding-10'>
@@ -185,7 +185,7 @@ const Cashier = () => (
                     <span className='invisible normal_currency add-account-btn client_logged_out'>{it.L('Looking for an alternative way to make deposits?')} <br /> {it.L('Add a cryptocurrency account and make deposits to fund your account.')}</span>
                     <span className='invisible normal_currency change-account-btn client_logged_out'>{it.L('Looking for an alternative way to make deposits?')} <br /> {it.L('Switch to your cryptocurrency account and make deposits to fund your account.')}</span>
                 </div>
-                <ChangeAddAccount is_crypto = {false} />
+                <ChangeAddAccount is_crypto={false} />
             </div>
         </div>
 
