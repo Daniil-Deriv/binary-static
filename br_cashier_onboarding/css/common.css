@@ -686,11 +686,11 @@ ul.bullet.gr-row > li {
   color: #c2c2c2;
   display: inline-block; }
 
-.cashier-button {
-  margin-left: 0 !important;
+.gr-adapt .cashier-button.toggle.button {
+  margin-left: 0;
   white-space: nowrap; }
 
-#VRTC-btn {
+#demo-btn {
   margin-left: -1.3rem !important; }
 
 .horizontal_line {
